@@ -1,6 +1,6 @@
 module task1_tb;
 
-//Use these for the inputs
+//Use these for the inputs.
 logic a,b,c;
 
 //Use these two signals for the outputs
