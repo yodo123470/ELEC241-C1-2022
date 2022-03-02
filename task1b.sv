@@ -12,7 +12,7 @@ A	B	C	Y
 1	1	1	11
 */
 
-module task1b(output logic Y[1:0], input logic A, B, C);
+module task1b(output logic [1:0] Y, input logic A, B, C);
 
 
 
