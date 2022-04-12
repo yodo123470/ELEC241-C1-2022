@@ -11,7 +11,7 @@ cModel Technology
 Z0 dD:/ELEC241-C1-20212/simulation/modelsim
 vtask1a
 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-!s110 1649711266
+!s110 1649787536
 !i10b 1
 !s100 Ug9[Mbh<:n__8UmOZ4dO23
 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -28,7 +28,7 @@ OV;L;2020.1;71
 r1
 !s85 0
 31
-!s108 1649711266.000000
+!s108 1649787536.000000
 !s107 D:/ELEC241-C1-20212/task1a.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ELEC241-C1-20212|D:/ELEC241-C1-20212/task1a.sv|
 !i113 1
