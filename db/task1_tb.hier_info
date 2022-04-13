@@ -1,17 +1,29 @@
 |task1a
-Y[0] << u11.DB_MAX_OUTPUT_PORT_TYPE
-Y[1] << <GND>
+Y[0] <= u15.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= u16.DB_MAX_OUTPUT_PORT_TYPE
 A => u9.IN0
 A => u10.IN0
+A => u12.IN0
+A => u13.IN0
+A => u14.IN0
 A => u7.IN0
 A => u8.IN0
+A => u11.IN0
 B => u8.IN1
 B => u10.IN1
+B => u11.IN1
+B => u13.IN1
+B => u14.IN1
 B => u7.IN1
 B => u9.IN1
+B => u12.IN1
 C => u7.IN2
 C => u10.IN2
+C => u11.IN2
+C => u12.IN2
+C => u14.IN2
 C => u8.IN2
 C => u9.IN2
+C => u13.IN2
 
 

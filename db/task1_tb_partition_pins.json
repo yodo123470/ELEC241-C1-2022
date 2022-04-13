@@ -8,6 +8,10 @@
 					"strict" : false
 				},
 				{
+					"name" : "Y[1]",
+					"strict" : false
+				},
+				{
 					"name" : "A",
 					"strict" : false
 				},

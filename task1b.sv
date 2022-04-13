@@ -14,8 +14,10 @@ A	B	C	Y
 
 module task1b(output logic [1:0] Y, input logic A, B, C);
 
+// always checking A,B,C if they fit the logic 
 always @(A, B, C)
 begin
+//check for the amount of signals in the gate A, B, C with the y variable being updated to represent this 
 	if (A == 0 && B== 0 && C == 0)
 		Y = 0; 
 	else if ((A == 0 && B == 0 && C== 1) || (A == 0 && B == 1 && C== 0) || (A == 1 && B == 0 && C== 0))

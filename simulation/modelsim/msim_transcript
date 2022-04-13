@@ -12,36 +12,73 @@
 # 
 # vlog -sv -work work +incdir+D:/ELEC241-C1-20212 {D:/ELEC241-C1-20212/task1a.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:18:56 on Apr 12,2022
+# Start time: 18:36:42 on Apr 13,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/ELEC241-C1-20212" D:/ELEC241-C1-20212/task1a.sv 
 # -- Compiling module task1a
 # 
 # Top level modules:
 # 	task1a
-# End time: 19:18:56 on Apr 12,2022, Elapsed time: 0:00:00
+# End time: 18:36:42 on Apr 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-vsim work.task1a
-# vsim work.task1a 
-# Start time: 19:19:30 on Apr 12,2022
+vlog -reportprogress 300 -work work D:/ELEC241-C1-20212/task1_tb.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:36:55 on Apr 13,2022
+# vlog -reportprogress 300 -work work D:/ELEC241-C1-20212/task1_tb.sv 
+# -- Compiling module task1_tb
+# 
+# Top level modules:
+# 	task1_tb
+# End time: 18:36:55 on Apr 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work D:/ELEC241-C1-20212/task1a.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:36:55 on Apr 13,2022
+# vlog -reportprogress 300 -work work D:/ELEC241-C1-20212/task1a.sv 
+# -- Compiling module task1a
+# 
+# Top level modules:
+# 	task1a
+# End time: 18:36:55 on Apr 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work D:/ELEC241-C1-20212/task1b.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:36:55 on Apr 13,2022
+# vlog -reportprogress 300 -work work D:/ELEC241-C1-20212/task1b.sv 
+# -- Compiling module task1b
+# 
+# Top level modules:
+# 	task1b
+# End time: 18:36:55 on Apr 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.task1_tb
+# vsim work.task1_tb 
+# Start time: 18:36:58 on Apr 13,2022
 # Loading sv_std.std
+# Loading work.task1_tb
 # Loading work.task1a
+# Loading work.task1b
+vsim work.task1_tb
+# End time: 18:37:09 on Apr 13,2022, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 0
+# vsim work.task1_tb 
+# Start time: 18:37:09 on Apr 13,2022
+# Loading sv_std.std
+# Loading work.task1_tb
+# Loading work.task1a
+# Loading work.task1b
 add wave -position insertpoint  \
-sim:/task1a/Y \
-sim:/task1a/A \
-sim:/task1a/B \
-sim:/task1a/C \
-sim:/task1a/Ainv \
-sim:/task1a/Binv \
-sim:/task1a/Cinv \
-sim:/task1a/term0 \
-sim:/task1a/term1 \
-sim:/task1a/term2 \
-sim:/task1a/term3 \
-sim:/task1a/invA \
-sim:/task1a/invB \
-sim:/task1a/invC
+sim:/task1_tb/a \
+sim:/task1_tb/b \
+sim:/task1_tb/c \
+sim:/task1_tb/y_structural \
+sim:/task1_tb/y_other
 run
 run
-# End time: 19:23:52 on Apr 12,2022, Elapsed time: 0:04:22
+run
+run
+run
+run
+run
+# End time: 18:38:57 on Apr 13,2022, Elapsed time: 0:01:48
 # Errors: 0, Warnings: 0

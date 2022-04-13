@@ -14,23 +14,39 @@ initial
 begin
 	//Write your testbench here
 	
+	//defining the bits width from the table since it is 0 or 1
+	
    a = 1'b0;	// 1'b0 => 1 bit wide, binary, value 0
    b = 1'b0;
-	c = 1'b1;
-   #100ps;		// Simulate 50ps delay
-   a = 1'b0;	// 1'b0 => 1 bit wide, binary, value 0
+	c = 1'b0;
+   #100ps;		// Simulate 100ps delay
+   a = 1'b0;	
+   b = 1'b0;
+	b = 1'b1;	// 1'b1 => 1 bit wide, binary, value 1
+   #100ps;		
+   a = 1'b0;	
    b = 1'b1;
-	b = 1'b0;	// 1'b1 => 1 bit wide, binary, value 1
-   #100ps;		// Simulate 50ps delay
-   a = 1'b1;	// 1'b0 => 1 bit wide, binary, value 0
-   b = 1'b0;
 	b = 1'b0;
-   #100ps;		// Simulate 50ps delay
-   a = 1'b1;	// 1'b0 => 1 bit wide, binary, value 0
+   #100ps;		
    b = 1'b1;
 	b = 1'b1;
    #100ps;
-//    y_structural = 4'b1;  
+   a = 1'b1;	
+   b = 1'b0;
+	b = 1'b0;
+   #100ps;
+   a = 1'b1;	
+   b = 1'b0;
+	b = 1'b1;
+   #100ps;
+	a = 1'b1;	
+   b = 1'b1;
+	b = 1'b0;
+   #100ps;
+	a = 1'b1;	
+   b = 1'b1;
+	b = 1'b1;
+	#100ps;
 
 end	
 
