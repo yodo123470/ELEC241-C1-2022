@@ -11,7 +11,7 @@ cModel Technology
 Z0 dD:/ELEC241-C1-20212/simulation/modelsim
 vtask1a
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-!s110 1649897923
+!s110 1649900547
 !i10b 1
 !s100 ?A5IHbGT4YnY<cG91C[AT0
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -28,7 +28,7 @@ Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-!s108 1649897923.000000
+!s108 1649900547.000000
 !s107 D:/ELEC241-C1-20212/task1a.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ELEC241-C1-20212|D:/ELEC241-C1-20212/task1a.sv|
 !i113 1
@@ -37,24 +37,24 @@ o-sv -work work
 Z5 tCvgOpt 0
 vtask2
 R1
-Z6 !s110 1649897987
+!s110 1649900573
 !i10b 1
-!s100 @d7^>dY]hZTNkbFQ6GNDG2
+!s100 2QzL`TL;1kKD=J4Fm0_4z3
 R2
-Ii?jaORn:nX5CXajaFeSZ;3
+Il_E`N?9=4:ne@RZZ0`Uja2
 R3
 S1
 R0
-w1649897891
+w1649900520
 8D:/ELEC241-C1-20212/task2.sv
 FD:/ELEC241-C1-20212/task2.sv
 !i122 1
-L0 2 43
+L0 2 42
 R4
 r1
 !s85 0
 31
-!s108 1649897986.000000
+Z6 !s108 1649900573.000000
 !s107 D:/ELEC241-C1-20212/task2.sv|
 !s90 -reportprogress|300|-work|work|D:/ELEC241-C1-20212/task2.sv|
 !i113 1
@@ -62,24 +62,24 @@ Z7 o-work work
 R5
 vtask2_tb
 R1
-R6
+!s110 1649900574
 !i10b 1
-!s100 iNVBGW3]C6XUBUKz4WOH80
+!s100 <LMo^M1C=Lh]`Q>i>i80g0
 R2
-ImM2J0MD98Q[QKA2@5agRm0
+IW=hA61`oZV[^3WnAN54_h3
 R3
 S1
 R0
-w1649896485
+w1649900519
 8D:/ELEC241-C1-20212/task2_tb.sv
 FD:/ELEC241-C1-20212/task2_tb.sv
 !i122 2
-L0 1 31
+L0 1 38
 R4
 r1
 !s85 0
 31
-!s108 1649897987.000000
+R6
 !s107 D:/ELEC241-C1-20212/task2_tb.sv|
 !s90 -reportprogress|300|-work|work|D:/ELEC241-C1-20212/task2_tb.sv|
 !i113 1

@@ -3,18 +3,16 @@ module task2 #(parameter N=16'b1010110011100001) (output logic [15:0] Q, input l
 
 //Write solution here
 
-//q->16 bit intermediate line for shift register
-
-//q0 is assigned to y ;right shift
+// recording in the registor that there is 15 outputs
 
 reg [15:0]Y;
-
-
+ 
 assign Q = Y;
 
+// defining the wires
 wire w1,w2,w3, w4;
 
-//w1,w2,w3 has xor operation between mentioned bits
+//w1,w2,w3 has xor operation between the mentioned bits
 
 assign w1=Y[0]^Y[14],
 
@@ -24,16 +22,17 @@ w3= Y[0]^Y[11],
 
 w4= Y[0];
 
+//checking for CLK and RESET
 always@(posedge CLK,posedge n_RESET)
 
 begin
 
-//if clr=1, load the initial bits
+//if Reset, it will load the initial bits
 	if(n_RESET)
-
+		//allowing Y to be the block of N which is representing the paramaters 
 		Y<= N;
 
-	//else right shift and load w3 as msb bit
+	//else right shift everything in the line
 
 	else
 
