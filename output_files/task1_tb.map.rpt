@@ -1,5 +1,5 @@
 Analysis & Synthesis report for task1_tb
-Wed Apr 13 17:55:39 2022
+Thu Apr 14 01:58:20 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -43,7 +43,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Apr 13 17:55:39 2022       ;
+; Analysis & Synthesis Status        ; Successful - Thu Apr 14 01:58:20 2022       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; task1_tb                                    ;
 ; Top-level Entity Name              ; task1a                                      ;
@@ -257,7 +257,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Wed Apr 13 17:55:31 2022
+    Info: Processing started: Thu Apr 14 01:58:12 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off task1_tb -c task1_tb
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -275,9 +275,9 @@ Info (12021): Found 1 design units, including 1 entities, in source file task1b.
     Info (12023): Found entity 1: task1b File: D:/ELEC241-C1-20212/task1b.sv Line: 15
 Info (12021): Found 1 design units, including 1 entities, in source file task1a.sv
     Info (12023): Found entity 1: task1a File: D:/ELEC241-C1-20212/task1a.sv Line: 16
-Warning (10236): Verilog HDL Implicit Net warning at task1a.sv(41): created implicit net for "invA" File: D:/ELEC241-C1-20212/task1a.sv Line: 41
-Warning (10236): Verilog HDL Implicit Net warning at task1a.sv(42): created implicit net for "invB" File: D:/ELEC241-C1-20212/task1a.sv Line: 42
-Warning (10236): Verilog HDL Implicit Net warning at task1a.sv(44): created implicit net for "invC" File: D:/ELEC241-C1-20212/task1a.sv Line: 44
+Warning (10236): Verilog HDL Implicit Net warning at task1a.sv(38): created implicit net for "invA" File: D:/ELEC241-C1-20212/task1a.sv Line: 38
+Warning (10236): Verilog HDL Implicit Net warning at task1a.sv(39): created implicit net for "invB" File: D:/ELEC241-C1-20212/task1a.sv Line: 39
+Warning (10236): Verilog HDL Implicit Net warning at task1a.sv(40): created implicit net for "invC" File: D:/ELEC241-C1-20212/task1a.sv Line: 40
 Info (12127): Elaborating entity "task1a" for the top level hierarchy
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
@@ -287,9 +287,9 @@ Info (21057): Implemented 7 device resources after synthesis - the final resourc
     Info (21059): Implemented 2 output pins
     Info (21061): Implemented 2 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 4736 megabytes
-    Info: Processing ended: Wed Apr 13 17:55:39 2022
+    Info: Peak virtual memory: 4744 megabytes
+    Info: Processing ended: Thu Apr 14 01:58:20 2022
     Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:20
+    Info: Total CPU time (on all processors): 00:00:18
 
 

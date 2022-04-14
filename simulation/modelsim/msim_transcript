@@ -12,73 +12,78 @@
 # 
 # vlog -sv -work work +incdir+D:/ELEC241-C1-20212 {D:/ELEC241-C1-20212/task1a.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:36:42 on Apr 13,2022
+# Start time: 01:58:43 on Apr 14,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/ELEC241-C1-20212" D:/ELEC241-C1-20212/task1a.sv 
 # -- Compiling module task1a
 # 
 # Top level modules:
 # 	task1a
-# End time: 18:36:42 on Apr 13,2022, Elapsed time: 0:00:00
+# End time: 01:58:43 on Apr 14,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-vlog -reportprogress 300 -work work D:/ELEC241-C1-20212/task1_tb.sv
+vlog -reportprogress 300 -work work D:/ELEC241-C1-20212/task2.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:36:55 on Apr 13,2022
-# vlog -reportprogress 300 -work work D:/ELEC241-C1-20212/task1_tb.sv 
-# -- Compiling module task1_tb
+# Start time: 01:59:46 on Apr 14,2022
+# vlog -reportprogress 300 -work work D:/ELEC241-C1-20212/task2.sv 
+# -- Compiling module task2
 # 
 # Top level modules:
-# 	task1_tb
-# End time: 18:36:55 on Apr 13,2022, Elapsed time: 0:00:00
+# 	task2
+# End time: 01:59:47 on Apr 14,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work D:/ELEC241-C1-20212/task1a.sv
+vlog -reportprogress 300 -work work D:/ELEC241-C1-20212/task2_tb.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:36:55 on Apr 13,2022
-# vlog -reportprogress 300 -work work D:/ELEC241-C1-20212/task1a.sv 
-# -- Compiling module task1a
+# Start time: 01:59:47 on Apr 14,2022
+# vlog -reportprogress 300 -work work D:/ELEC241-C1-20212/task2_tb.sv 
+# -- Compiling module task2_tb
 # 
 # Top level modules:
-# 	task1a
-# End time: 18:36:55 on Apr 13,2022, Elapsed time: 0:00:00
+# 	task2_tb
+# End time: 01:59:47 on Apr 14,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work D:/ELEC241-C1-20212/task1b.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:36:55 on Apr 13,2022
-# vlog -reportprogress 300 -work work D:/ELEC241-C1-20212/task1b.sv 
-# -- Compiling module task1b
-# 
-# Top level modules:
-# 	task1b
-# End time: 18:36:55 on Apr 13,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.task1_tb
-# vsim work.task1_tb 
-# Start time: 18:36:58 on Apr 13,2022
+vsim work.task2
+# vsim work.task2 
+# Start time: 01:59:49 on Apr 14,2022
 # Loading sv_std.std
-# Loading work.task1_tb
-# Loading work.task1a
-# Loading work.task1b
-vsim work.task1_tb
-# End time: 18:37:09 on Apr 13,2022, Elapsed time: 0:00:11
+# Loading work.task2
+add wave -position insertpoint sim:/task2/*
+vsim work.task2_tb
+# End time: 02:00:27 on Apr 14,2022, Elapsed time: 0:00:38
 # Errors: 0, Warnings: 0
-# vsim work.task1_tb 
-# Start time: 18:37:09 on Apr 13,2022
+# vsim work.task2_tb 
+# Start time: 02:00:27 on Apr 14,2022
 # Loading sv_std.std
-# Loading work.task1_tb
-# Loading work.task1a
-# Loading work.task1b
-add wave -position insertpoint  \
-sim:/task1_tb/a \
-sim:/task1_tb/b \
-sim:/task1_tb/c \
-sim:/task1_tb/y_structural \
-sim:/task1_tb/y_other
+# Loading work.task2_tb
+# Loading work.task2
+add wave -position insertpoint sim:/task2_tb/*
+run
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 0 ps ###############
+#   Wakeup process: /task2_tb/#ALWAYS#10 @ sub-iteration 0
+#     Source: D:/ELEC241-C1-20212/task2_tb.sv:10
+#   Wakeup process: /task2_tb/#ALWAYS#10 @ sub-iteration 1
+#     Source: D:/ELEC241-C1-20212/task2_tb.sv:10
+#   Wakeup process: /task2_tb/#ALWAYS#10 @ sub-iteration 2
+#     Source: D:/ELEC241-C1-20212/task2_tb.sv:10
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 0 ps.
+######## Additional Loop Analysis Started ##########
+####################################################
+# Simulation time has advanced while attempting to find the loop.
+# This may mean that the simulation iteration limit is set too low.
+####################################################
+##############  Autofindloop Step ##################
+#   Active process: /task2_tb/#IMPLICIT-WIRE(CLK)#7
+#     Source: D:/ELEC241-C1-20212/task2_tb.sv:7
+#   Active process: /task2_tb/u1/#ALWAYS#27
+#     Source: D:/ELEC241-C1-20212/task2_tb.sv:7
+#   Active process: /task2_tb/#INITIAL#18
+#     Source: D:/ELEC241-C1-20212/task2_tb.sv:18
+#   Active process: /task2_tb/#IMPLICIT-WIRE(n_RESET)#7
+#     Source: D:/ELEC241-C1-20212/task2_tb.sv:7
+###################################################
 run
 run
 run
-run
-run
-run
-run
-# End time: 18:38:57 on Apr 13,2022, Elapsed time: 0:01:48
-# Errors: 0, Warnings: 0
+# End time: 02:01:03 on Apr 14,2022, Elapsed time: 0:00:36
+# Errors: 1, Warnings: 0

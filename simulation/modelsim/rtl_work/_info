@@ -9,78 +9,79 @@ z2
 !i10f 100
 cModel Technology
 Z0 dD:/ELEC241-C1-20212/simulation/modelsim
-vtask1_tb
-Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1649871415
-!i10b 1
-!s100 @[OoZHia?XlZ^d:3OSA?X0
-Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-Ik_M[?nTHXBZQJgnBaFOA81
-Z4 VDg1SIo80bB@j0V0VzS_@n1
-S1
-R0
-w1649870900
-8D:/ELEC241-C1-20212/task1_tb.sv
-FD:/ELEC241-C1-20212/task1_tb.sv
-!i122 1
-L0 1 53
-Z5 OV;L;2020.1;71
-r1
-!s85 0
-31
-Z6 !s108 1649871415.000000
-!s107 D:/ELEC241-C1-20212/task1_tb.sv|
-!s90 -reportprogress|300|-work|work|D:/ELEC241-C1-20212/task1_tb.sv|
-!i113 1
-Z7 o-work work
-Z8 tCvgOpt 0
 vtask1a
-R1
-R2
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1649897923
 !i10b 1
 !s100 ?A5IHbGT4YnY<cG91C[AT0
-R3
-I;b5SSFmTMR7MB9gl:0Y261
-R4
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ii0]WY[cNka245BQ6oCim^2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
 w1649870903
 8D:/ELEC241-C1-20212/task1a.sv
 FD:/ELEC241-C1-20212/task1a.sv
-!i122 2
+!i122 0
 L0 16 45
-R5
+Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-R6
+!s108 1649897923.000000
 !s107 D:/ELEC241-C1-20212/task1a.sv|
-!s90 -reportprogress|300|-work|work|D:/ELEC241-C1-20212/task1a.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ELEC241-C1-20212|D:/ELEC241-C1-20212/task1a.sv|
 !i113 1
-R7
-R8
-vtask1b
+o-sv -work work
+!s92 -sv -work work +incdir+D:/ELEC241-C1-20212
+Z5 tCvgOpt 0
+vtask2
 R1
-R2
+Z6 !s110 1649897987
 !i10b 1
-!s100 iAam3Zd<mS>E8d?e:89;60
+!s100 @d7^>dY]hZTNkbFQ6GNDG2
+R2
+Ii?jaORn:nX5CXajaFeSZ;3
 R3
-Il]]>>3D74BYgJEiDP>>Sh0
-R4
 S1
 R0
-w1649870908
-8D:/ELEC241-C1-20212/task1b.sv
-FD:/ELEC241-C1-20212/task1b.sv
-!i122 3
-L0 15 18
-R5
+w1649897891
+8D:/ELEC241-C1-20212/task2.sv
+FD:/ELEC241-C1-20212/task2.sv
+!i122 1
+L0 2 43
+R4
 r1
 !s85 0
 31
+!s108 1649897986.000000
+!s107 D:/ELEC241-C1-20212/task2.sv|
+!s90 -reportprogress|300|-work|work|D:/ELEC241-C1-20212/task2.sv|
+!i113 1
+Z7 o-work work
+R5
+vtask2_tb
+R1
 R6
-!s107 D:/ELEC241-C1-20212/task1b.sv|
-!s90 -reportprogress|300|-work|work|D:/ELEC241-C1-20212/task1b.sv|
+!i10b 1
+!s100 iNVBGW3]C6XUBUKz4WOH80
+R2
+ImM2J0MD98Q[QKA2@5agRm0
+R3
+S1
+R0
+w1649896485
+8D:/ELEC241-C1-20212/task2_tb.sv
+FD:/ELEC241-C1-20212/task2_tb.sv
+!i122 2
+L0 1 31
+R4
+r1
+!s85 0
+31
+!s108 1649897987.000000
+!s107 D:/ELEC241-C1-20212/task2_tb.sv|
+!s90 -reportprogress|300|-work|work|D:/ELEC241-C1-20212/task2_tb.sv|
 !i113 1
 R7
-R8
+R5

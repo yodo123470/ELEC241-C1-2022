@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at task2.sv(26): always construct contains both blocking and non-blocking assignments File: D:/ELEC241-C1-20212/task2.sv Line: 26
